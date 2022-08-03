@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgb(11, 230, 237);
+    font-size: 5vw;
+    padding-bottom: 1px;
+    box-shadow: 0px 1px 5px black;
+    color: rgb(51, 65, 77);
+    z-index: 100;
+    font-family: 'Josefin Sans', sans-serif;
+}
+@media (max-width:1000px)
+{
+    .header{
+        padding-top: 15px;
+        font-size: 6.4vw;
+    }
+}
+
+*{
+    scroll-behavior: smooth;
+    
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
